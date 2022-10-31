@@ -1,0 +1,9 @@
+button8 = Button(root,height=9,width=19,bd = .5,relief = 'sunken',bg = '#66ffe6',textvariable = btn8)
+    button8.grid(row=2,column=1)
+
+    button9 = Button(root,height=9,width=19,bd = .5,relief = 'sunken',bg = '#66ffe6',textvariable = btn9)
+    button9.grid(row=2,column=2)
+
+start()
+
+root.mainloop()
